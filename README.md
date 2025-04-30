@@ -34,7 +34,7 @@ To use this repository, you need:
 
 The fastest way to deploy an Ollama instance is to click the **Deploy to Koyeb** button below.
 
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?name=koyeb-ollama-model-bundle&type=git&repository=koyeb%2Fexample-ollama-model-bundle&branch=main&builder=dockerfile&instance_type=gpu-nvidia-rtx-4000-sff-ada&env%5BMODEL_NAME%5D=gemma2:2b&hc_grace_period%5B8000%5D=300)
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?name=koyeb-ollama-model-bundle&type=git&repository=koyeb%2Fexample-ollama-model-bundle&branch=main&builder=dockerfile&instance_type=gpu-nvidia-rtx-4000-sff-ada&env%5BMODEL_LIST%5D=gemma2:2b&hc_grace_period%5B8000%5D=300)
 
 Clicking on this button brings you to the Koyeb App creation page with most of the settings pre-configured to launch this application. You will need to configure the following environment variables:
 
